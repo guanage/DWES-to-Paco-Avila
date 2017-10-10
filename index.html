@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 7</title>
+</head>
+
+<body>
+
+        <p id="jstest"></p>
+    <script>
+
+    
+    var num = prompt("¿Que número quieres saber si es par o no?");
+
+    function parImpar(num) {
+
+        if (num % 2 == 0) {
+            document.getElementById("jstest").innerHTML = "El número introducido es PAR";
+        }
+        else {
+            document.getElementById("jstest").innerHTML = "El número introducido es impar";
+        }
+    }    
+
+
+    parImpar(num);
+
+    </script>
+
+   
+    
+</body>
+
+</html>
